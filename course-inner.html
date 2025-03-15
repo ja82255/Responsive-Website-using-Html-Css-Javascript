@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech2 etc Tutorial</title>
+
+    <script
+      src="https://kit.fontawesome.com/252a875ede.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <img src="images/logo.svg" alt="logo" />
+      <ul class="navigation">
+        <i id="menu-close" class="fas fa-times"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="active" href="course.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <img id="menu-btn" src="images/menu.png" alt="" srcset="" />
+    </nav>
+
+    <!-- Home -->
+    <section id="about-home">
+      <h2>Courses /</h2>
+    
+    </section>
+
+  <section id="course-inner">
+    <div class="overview">
+        <img class="course-img" src="images/c1.jpg" alt="" srcset="">
+<div class="course-head">
+    <div class="c-name">
+        <h2>Javascript Beginner Course</h2>
+        <div class="star">
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+            <i class="fas fa-star"> </i>
+          
+          </div>
+          <p>Modern Javascript from the begginning - all the way up to js expert</p>
+    </div>
+    <span>$49.99</span>
+</div>
+<h3>Instructor</h3>
+<div class="tutor">
+  <img src="images/c4.jpg" alt="">
+  <div class="tutor-det">
+    <h5>John Doe</h5>
+    <p>Web Developer At Google</p>
+  </div>
+</div>
+<hr>
+<h3>Course Overview</h3>
+<p>JavaScript is a programming language used to create interactive features on websites. It's used to add dynamic content, like animations, maps, and video jukeboxes. JavaScript is also used to control multimedia, and to create user interfaces. <br><br>JavaScript is a programming language used to create interactive features on websites. It's used to add dynamic content, like animations, maps, and video jukeboxes. JavaScript is also used to control multimedia, and to create user interfaces.  <br><br>JavaScript is a programming language used to create interactive features on websites. It's used to add dynamic content, like animations, maps, and video jukeboxes. JavaScript is also used to control multimedia, and to create user interfaces.  </p>
+<hr>
+<h3>What you'll learn</h3>
+<div class="learn">
+  <p><i class="far fa-check-circle"></i>JavaScript From scratch - beginner to advanced</p>
+  <p><i class="far fa-check-circle"></i>Everthing you need to become a javascript expert and apply for javascript jobs</p>
+  <p><i class="far fa-check-circle"></i>All about variables, functions, objects and arrays</p>
+  <p><i class="far fa-check-circle"></i>All core features and concepts you need to know in modern javascript development</p>
+  <p><i class="far fa-check-circle"></i>Project-driven learning with plenty of examples</p>
+  <p><i class="far fa-check-circle"></i>Object oriented programming</p>
+</div>
+    </div>
+
+    <div class="enroll">
+      <h3>This Course includes:</h3>
+      <p><i class="far fa-video"></i>52 hours video</p>
+      <p><i class="far fa-newspaper"></i>75 articles</p>
+      <p><i class="far fa-cloud-download"></i>Downloadable Resources</p>
+      <p><i class="far fa-infinity"></i>Full lifetime access</p>
+      <p><i class="far fa-paperclip"></i>Access on mobile and Tv</p>
+      <p><i class="far fa-trophy-alt"></i>Assignments</p>
+      <p><i class="far fa-trophy-alt"></i>Certificate of completion</p>
+      <div class="enroll-btn">
+        <a href="blue">Enroll course</a>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Invester Relations</li>
+        <li>Terms Of Services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <li>You can trust us. we only send promo offers</li>
+        <div class="subscribe">
+          <input class="email" type="text" placeholder="Your email address" />
+          <a href="" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright @2025 All rights reserved | This template is made by Praveen
+          Jat
+        </p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
